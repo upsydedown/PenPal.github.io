@@ -13,6 +13,7 @@
 
 body {
     display: flex;
+    scroll-behavior: smooth;
     flex-wrap: wrap;
     background-color: rgba(170, 65, 235, 0.065);
 }
