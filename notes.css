@@ -251,6 +251,11 @@ textarea {
     outline: 1px solid rgb(170, 65, 235);
 }
 
+textarea {
+    outline: 1px solid rgb(170, 65, 235);
+    box-shadow: 0px 2px 5px 0.3px rgba(108, 61, 138, 0.445);
+}
+
 @media (min-width: 700px) and (max-width: 1920px) {
     .note {
         margin: 1rem 1rem 1rem 1.5rem;
