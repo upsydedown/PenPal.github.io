@@ -1,3 +1,3 @@
 # NotesApp.github.io
-Developed a sticky-notes' webapp using HTML, CSS and JS.
-Hope you liked it.
+Developed a sticky-notes' webapp using HTML, CSS, JavaScript & LocalStorage.
+
