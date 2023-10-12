@@ -12,8 +12,8 @@
 }
 
 body {
-    display: flex;
     scroll-behavior: smooth;
+    display: flex;
     flex-wrap: wrap;
     background-color: rgba(170, 65, 235, 0.065);
 }
@@ -43,7 +43,6 @@ body {
     height: 100%;
     width: 100%;
     border-bottom: 2px ridge rgb(188, 99, 243);
-    border-radius: px;
 }
 
 .container {
@@ -55,7 +54,6 @@ body {
 
 .hidden {
     display: none;
-    ;
 }
 
 #hover-button {
@@ -248,7 +246,6 @@ textarea {
     resize: none;
     outline: none;
     background-color: transparent;
-    outline: 1px solid rgb(170, 65, 235);
 }
 
 textarea {
