@@ -14,7 +14,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    background-color: #ff9234;
+    background-color: #ffcd3c;
 }
 
 ::-webkit-scrollbar {
@@ -95,6 +95,7 @@ body {
     border-radius: 24px;
     background-color: transparent;
     z-index: 1;
+
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
@@ -115,6 +116,7 @@ body {
     border-radius: 24px;
     border: 2px solid black;
     z-index: 2;
+    box-shadow: 7px 7px 10px 0.9px rgba(29, 29, 29, 0.345);
     -webkit-transition: all 0.25s cubic-bezier(1, 0, 0.8, 1);
     -o-transition: all 0.25s cubic-bezier(1, 0, 0.8, 1);
     transition: all 0.25s cubic-bezier(1, 0, 0.8, 1);
@@ -282,7 +284,7 @@ body {
     font-family: "Poor Story", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: #ff9234;
+    color: black;
     position: relative;
     top: -0.75rem;
     height: 30rem;
@@ -290,9 +292,10 @@ body {
     border: 0px;
     border-radius: 5px;
     padding: 0.5rem;
-    font-size: 2.25rem;
+    font-size: 2rem;
     overflow: hidden;
     word-wrap: break-word;
+    text-shadow: 2px 2px 2px rgba(29, 29, 29, 0.145);
 }
 
 textarea {
@@ -305,18 +308,6 @@ textarea {
     outline: 1px solid #ff9234;
     -webkit-box-shadow: 0px 2px 5px 0.3px #fafcb4;
     box-shadow: 0px 2px 5px 0.3px #fafcb4;
-}
-
-.script {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 @media (min-width: 700px) and (max-width: 1920px) {
