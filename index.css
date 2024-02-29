@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Carme&family=Oswald:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carme&family=Oswald:wght@600&display=swap");
 
 @font-face {
     font-family: Porcelain;
@@ -15,7 +15,7 @@ body {
     scroll-behavior: smooth;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(170, 65, 235, 0.065);
+    background-color: #ff9234;
 }
 
 ::-webkit-scrollbar {
@@ -28,21 +28,21 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-clip: content-box;
-    background-color: rgba(170, 65, 235, 0.3);
+    background-color: #fafcb4;
     border-radius: 1rem;
     border: 5px solid transparent;
     transition: all 0.3s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(145, 10, 235);
+    background-color: #ff9234;
 }
 
 .mainbody {
     margin-bottom: 2rem;
     height: 100%;
     width: 100%;
-    border-bottom: 2px ridge rgb(188, 99, 243);
+    border-bottom: 1px solid black;
 }
 
 .container {
@@ -67,12 +67,12 @@ body {
 
 .btn {
     position: fixed;
-    top: .9rem;
+    top: 1.5rem;
     flex-flow: nowrap;
     justify-content: flex-start;
     width: 8.5rem;
     height: 2.7rem;
-    border: 2px solid rgb(145, 10, 235);
+    border: 0px;
     border-radius: 24px;
     background-color: transparent;
     z-index: 1;
@@ -89,13 +89,15 @@ body {
     left: -1px;
     width: 2.7rem;
     height: 2.7rem;
-    background-color: rgb(145, 10, 235);
+    background-color: #fafcb4;
     border-radius: 24px;
+    border: 2px solid black;
     z-index: 2;
     transition: all 0.25s cubic-bezier(1, 0, 0.8, 1);
 }
 
 .circle:hover {
+    /* border: 2px solid black; */
     width: 8.5rem;
 }
 
@@ -106,8 +108,8 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 2px;
-    border-top: 2px solid rgb(255, 255, 255);
-    border-right: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid #ff9234;
+    border-right: 2px solid #ff9234;
     transform: rotate(45deg);
     transition: all 0.25s ease-in-out;
 }
@@ -122,7 +124,7 @@ body {
     width: 18px;
     height: 1.5px;
     border-radius: 3px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ff9234;
     transform: rotate(-45deg);
     top: 5.15px;
     left: -5.5px;
@@ -135,11 +137,12 @@ body {
 }
 
 .text {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     position: relative;
     text-transform: uppercase;
     left: 3rem;
-    color: rgb(145, 10, 235);
+    visibility: hidden;
+    color: #fafcb4;
     font-size: 0.85rem;
     line-height: 1px;
     letter-spacing: 0.2px;
@@ -148,41 +151,40 @@ body {
 }
 
 .btn:hover .text {
+    visibility: visible;
     transform: translateX(-5px);
-    color: rgb(228, 213, 238);
+    color: #ff9234;
 }
 
 .head {
     padding: 0.5rem 0rem 0.5rem 0rem;
     justify-content: flex-start;
-
 }
 
 .logo {
     position: relative;
-    width: 12rem;
-    height: 2.75rem;
-    top: .52rem;
+    left: 1rem;
+    height: 4rem;
+    top: 0.5rem;
 }
 
 .note {
     margin: 1.25rem 1rem 1.25rem 1rem;
     padding: 2.5rem 1.2rem 2.5rem 1.2rem;
-    justify-content: flex-start;
-    align-items: flex-start;
     height: 35rem;
     width: 22.5rem;
     border-radius: 10px;
     transition: all 0.15s ease-in-out;
+    border: 1px solid #ff9234;
+    background-color: #fafcb4;
 }
 
 .note:hover {
-    transform: scale(1.03);
-    background-color: rgba(170, 65, 235, 0.05);
-    box-shadow: 0px 2px 9px 0.9px rgba(29, 29, 29, 0.445);
+    transform: scale(1.01);
+    border: 1px solid black;
+    box-shadow: 0px 2px 9px 0.9px rgba(29, 29, 29, 0.145);
     cursor: pointer;
 }
-
 
 .button {
     position: relative;
@@ -206,30 +208,29 @@ body {
 .edit {
     top: -1.75rem;
     right: -7.5rem;
-    background-color: rgb(61, 233, 9);
+    background-color: transparent;
 }
 
 .edit:hover {
-    color: rgb(61, 233, 9);
-    border: 1.5px solid rgb(61, 233, 9);
-    background-color: rgb(255, 255, 255);
+    color: #fafcb4;
+    background-color: #ff9234;
 }
 
 .delete {
     top: -1.75rem;
     right: -8.25rem;
-    background-color: rgb(235, 69, 4);
+    color: #ff9234;
+    background-color: transparent;
 }
 
 .delete:hover {
-    color: rgb(235, 69, 4);
-    border: 1.5px solid rgb(235, 69, 4);
-    background-color: rgb(255, 255, 255);
+    color: #fafcb4;
+    background-color: #ff9234;
 }
 
 .textbox {
     font-family: Porcelain;
-    color: rgb(145, 10, 235);
+    color: #ff9234;
     position: relative;
     top: -0.75rem;
     height: 30rem;
@@ -249,8 +250,14 @@ textarea {
 }
 
 textarea {
-    outline: 1px solid rgb(170, 65, 235);
-    box-shadow: 0px 2px 5px 0.3px rgba(108, 61, 138, 0.445);
+    outline: 1px solid #ff9234;
+    box-shadow: 0px 2px 5px 0.3px #fafcb4;
+}
+
+.script {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 700px) and (max-width: 1920px) {
