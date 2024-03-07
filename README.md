@@ -3,20 +3,20 @@
 
   <p align="center"><img src="Penpal01.png" alt="project-image"></p>
 
-#### PenPal is a mobile-first web app designed to be your go-to tool for capturing and organizing your thoughts, ideas, and to-do lists. 
+#### PenPal is a mobile-first web app designed to capture and organise your thoughts, ideas, and to-do lists. 
 It offers a simple and intuitive interface, making it easy to keep track of everything on the go.
 
 #### Introduction:
 
 Welcome to our project! This is a note-taking that allows users to quickly and easily add, delete, and update notes and lists (perform CRUD Operations). 
-With this webapp, users can effortlessly manage , helping them stay organized and on top of their to-do list. We hope you enjoy and we look forward to your contributions!
+With this web app, users can effortlessly manage, helping them stay organized and on top of their to-do list. We hope you enjoy and we look forward to your contributions!
 
 #### Tech Stack:
 - HTML5
 - CSS3
-- JavScript 
+- Javascript 
 
-#### Why a notes taking app?
+#### Why a note-taking app?
 
 - 📸Capture your thoughts and ideas anytime, anywhere.
 - 📝Organize your notes for easy reference.
@@ -26,14 +26,14 @@ With this webapp, users can effortlessly manage , helping them stay organized an
 
 - ✏️ Create and edit notes: Jot down anything that comes to mind, from quick reminders to detailed ideas.
 - ✨ Beauty in Simplicity: PenPal is designed to be visually pleasing and easy to navigate on any mobile device.
-- 🔒 Secured Privacy: Since the notes taken are stored in local storage of the browser, it ensures that privacy of these notes is maintained and no one else can actually access them, even the creators ensuring complete privacy.
+- 🔒 Secured Privacy: Since the notes taken are stored in local browser storage, it ensures that the privacy of these notes is maintained and no one else can access them, even the creators ensuring complete privacy.
 
 #### Getting Started:
 
-- Download the .zip file (by clicking on Code --> Download .zip)of this repository to your system.
+- Download this repository's .zip file (by clicking on Code --> Download .zip) to your system.
 - Open PenPal on your mobile device's web browser.
 
- ####Screenshots:
+ #### Screenshots:
   <p align="center"><img src="Penpal02.png" alt="project-image"></p>
 
 - Tap the "Add Notes" button to create a new note.
